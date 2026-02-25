@@ -146,7 +146,6 @@ function initializeMap() {
         if (kartMarker) {
             map.removeLayer(kartMarker);
         }
-
         kartMarker = L.circleMarker([13.129051169254026, 77.58824465835409], {
                         radius: 10,
                         color: '#ffffff',
